@@ -1,0 +1,69 @@
+/*TYPOGRAPHIE*/
+
+body {
+    font-size: 1.1em;
+    color: #000;
+    font-family: helvetica;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.3em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 30px;
+}
+
+h3 {
+    line-height: 30px;
+}
+
+td a {
+    font-size: 1.2em;
+}
+
+a {
+    color: #000;
+}
+
+/*POSITIONNAGE*/
+
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    padding-top: 120px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    width: 100px;
+}
+
+article {
+    height: 300px;
+}
+
+/*COLORISATION*/
+
+body {
+    background-color: #000;
+}
+
+.main {
+    background-color: #fff;
+}
