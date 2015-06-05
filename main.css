@@ -1,4 +1,4 @@
-/*TYPOGRAPHIE*/
+/*-------TYPOGRAPHIE--------*/
 
 body {
     font-size: 1.1em;
@@ -21,20 +21,41 @@ h3 {
     line-height: 30px;
 }
 
+h4 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+td {
+    text-align: center;
+}
+
 td a {
     font-size: 1.2em;
+    text-decoration: none;
 }
 
 a {
     color: #000;
 }
 
-/*POSITIONNAGE*/
+p {
+    text-align: left;
+}
+
+code {
+    color: #fff;
+    text-align: left;
+    font-family: 'Source Code Pro';
+    font-size: 0.9em;
+}
+
+/*-------POSITIONNAGE-------*/
 
 .main {
     max-width: 600px;
-    margin: 0 auto;
-    border-radius: 5px;
+    margin: 10 auto;
+    border-radius: 20px;
     padding: 30px;
 }
 
@@ -52,13 +73,30 @@ table {
 
 td {
     width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-article {
+.prez {
     height: 300px;
 }
 
-/*COLORISATION*/
+article {
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+code {
+    display: block;
+    padding: 30px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/*-------COLORISATION-------*/
 
 body {
     background-color: #000;
@@ -66,4 +104,24 @@ body {
 
 .main {
     background-color: #fff;
+}
+
+code {
+    background-color: #11110e;
+}
+
+.tag {
+    color: rgba(241, 184, 117, 0.66);
+}
+
+.attribut {
+    color: rgba(239, 167, 231, 0.56);
+}
+
+.valeur {
+    color: rgba(234, 225, 135, 0.79);
+}
+
+.propriete {
+    color: rgba(156, 226, 239, 0.73);
 }
