@@ -91,6 +91,49 @@ code span {
     padding-left: 180px;
 }
 
+/*-------COLORISATION-------*/
+
+body {
+    background-color: #11110e;
+}
+
+.main {
+    background-color: #fff;
+}
+
+code {
+    background-color: #11110e;
+}
+
+.tag {
+    color: rgba(241, 184, 117, 0.66);
+}
+
+.attribut {
+    color: rgba(239, 167, 231, 0.56);
+}
+
+.valeur {
+    color: rgba(234, 225, 135, 0.79);
+}
+
+.propriete {
+    color: rgba(156, 226, 239, 0.73);
+}
+
+span {
+    color: #c51111;
+}
+
+.noir {
+    background-color: #000;
+    color: #fff;
+}
+
+.blanc {
+    background-color: #fff;
+}
+
 /*-------POSITIONNAGE-------*/
 
 .main {
@@ -148,45 +191,6 @@ code {
     border-radius: 10px;
 }
 
-/*-------COLORISATION-------*/
-
-body {
-    background-color: #11110e;
-}
-
-.main {
-    background-color: #fff;
-}
-
-code {
-    background-color: #11110e;
-}
-
-.tag {
-    color: rgba(241, 184, 117, 0.66);
-}
-
-.attribut {
-    color: rgba(239, 167, 231, 0.56);
-}
-
-.valeur {
-    color: rgba(234, 225, 135, 0.79);
-}
-
-.propriete {
-    color: rgba(156, 226, 239, 0.73);
-}
-
-span {
-    color: #c51111;
-}
-
-.noir {
-    background-color: #000;
-    color: #d7dee1;
-}
-
-.gris {
-    background-color: #d7dee1;
+.blanc {
+    border: 1px solid black;
 }
