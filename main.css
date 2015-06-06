@@ -149,14 +149,6 @@ span {
     background-color: #fff;
 }
 
-.jaune {
-    background-color: rgba(234, 225, 135, 0.79);
-}
-
-.orange {
-    background-color: rgba(241, 184, 117, 0.66);
-}
-
 /*-------POSITIONNAGE-------*/
 
 .main {
@@ -223,11 +215,12 @@ article p {
 
 table {
     border: 1px solid black;
-    width: 500px;
     border-radius: 15px;
+    width: 500px;
     border-collapse: separate;
 }
 
 td {
      vertical-align: middle;
 }
+
