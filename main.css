@@ -187,10 +187,13 @@ code {
     display: block;
     padding: 30px 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
     border-radius: 10px;
 }
 
 .blanc {
     border: 1px solid black;
+}
+
+article p {
+    margin-top: 20px;
 }
