@@ -7,6 +7,7 @@ body {
     color: #000;
     font-family: helvetica;
     text-align: center;
+    line-height: 20px;
 }
 
 h1 {
@@ -91,6 +92,13 @@ code span {
 
 .tab6 {
     padding-left: 180px;
+}
+
+li {
+    text-align: left;
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
 /*-------COLORISATION-------*/
@@ -200,18 +208,3 @@ article p {
     margin-top: 20px;
 }
 
-/*------EXEMPLE 1------*/
-
-.ex1 {
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 20px;
-}
-
-h1 {
-    font-size: 1em;
-    text-decoration: none;
-    text-align: left;
-    text-transform: none;
-}

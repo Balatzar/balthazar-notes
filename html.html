@@ -5,6 +5,7 @@
     <title>HTML Notes</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="exemples.css">
 </head>
 <body>
     <div class="main">
@@ -36,15 +37,31 @@
                 <h1>Titre</h1>
                 <p>Paragraphe</p>
             </div>
-            <p>Assez simple.</p>
+            <p>Assez simple. L'indentation n'est pas nécessaire mais elle permet de rendre le code lisible et de facilement voir l'inbriquement des tags.</p>
         </article>
         <article>
             <h4>Le block</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore recusandae dolores ullam, provident, odit possimus totam mollitia labore fugiat quis deleniti quisquam, reprehenderit dicta veniam veritatis, error aspernatur. Corporis, officia.</p>
+            <p>Les tags peuvent être de type block ou inline.</p>
+            <p>Les tags block occupent automatiquement 100% de l'espace en largeur qu'ils peuvent (en fonction de la taille de leur contenant, que ce soit un autre tag block ou le corps de la page web).</p>
+            <p>Les block peuvent contenir d'autres block ou des inline.</p>
+            <p>Exemple : un block avec un tag div (avec une border pour la voir et une hauteur de 20px pour qu'elle ne soit pas une ligne infine)</p>
+            <div class="ex2"></div>
+            <p>La div occupe automatiquement 100% en largeur de l'espace que lui accorde son parent (avec un petit espace pour des raisons cosmétiques).</p>
+            <p>Exemples :</p>
+            <ul>
+                <li>div</li>
+                <li>p</li>
+                <li>table</li>
+                <li>header</li>
+                <li>form</li>
+            </ul>
         </article>
         <article>
             <h4>Le inline</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nobis sequi dolor officia ex minus veritatis dolorem commodi eveniet corporis quisquam dolore ullam cum mollitia accusamus fugiat eligendi aliquam, eum.</p>
+            <p>Les tags inline ont eux pour taille automatique celle de leur contenu.</p>
+            <p>Ils peuvent contenir d'autres tags inline mais pas de block.</p>
+            <p>Exemple d'un tag span contenant du texte :</p>
+            <p><span class="ex3">La taille de l'élément est celle de son contenu.</span></p>
         </article>
     </div>
 </body>
