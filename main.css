@@ -199,3 +199,19 @@ code {
 article p {
     margin-top: 20px;
 }
+
+/*------EXEMPLE 1------*/
+
+.ex1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 1em;
+    text-decoration: none;
+    text-align: left;
+    text-transform: none;
+}
