@@ -43,18 +43,51 @@ p {
     text-align: left;
 }
 
+span {
+    text-decoration: underline;
+}    
+
 code {
     color: #fff;
     text-align: left;
     font-family: 'Source Code Pro';
-    font-size: 0.9em;
+    font-size: 0.8em;
+}
+
+code span {
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.tab1 {
+    padding-left: 30px;
+}
+
+.tab2 {
+    padding-left: 60px;
+}
+
+.tab3 {
+    padding-left: 90px;
+}
+
+.tab4 {
+    padding-left: 120px;
+}
+
+.tab5 {
+    padding-left: 150px;
+}
+
+.tab6 {
+    padding-left: 180px;
 }
 
 /*-------POSITIONNAGE-------*/
 
 .main {
     max-width: 600px;
-    margin: 10 auto;
+    margin: 10px auto;
     border-radius: 20px;
     padding: 30px;
 }
@@ -93,13 +126,14 @@ code {
     display: block;
     padding: 30px 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 
 /*-------COLORISATION-------*/
 
 body {
-    background-color: #000;
+    background-color: #11110e;
 }
 
 .main {
@@ -124,4 +158,8 @@ code {
 
 .propriete {
     color: rgba(156, 226, 239, 0.73);
+}
+
+span {
+    color: #c51111;
 }

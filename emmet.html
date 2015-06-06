@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Emmet Notes</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css"> <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <h1>Les Notes de Balthazar !</h1>
+            <nav>
+                <table>
+                    <tr>
+                        <td><a href="index.html">Accueil</a></td>
+                        <td><a href="que.html">Que</a></td>
+                        <td><a href="qui.html">Qui</a></td>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+        <article>
+            <h4>Présentation</h4>
+            <p>Emmet est un plugin des principaux éditeurs de texte (sublime text, brackets, text mate, eclipse, notepad++, Vim...).<br>Il permet d'accélérer la vitesse de dévellopement en créant de puissantes abbréviations.</p>
+        </article>
+        <article>
+            <h4>Syntaxe de base</h4>
+            <code>body>.main>header>.logo>h1+.img-logo^nav>table>tr>(td>a)*5</code>
+            <p>Ce qui donne en utilisant la touche <span>tab</span> pour expandre :</p>
+            <code>
+                <span class="tag">&lt;body&gt;</span><br>
+                <span class="tag tab1">&lt;div </span><span class="attribut">class=</span><span class="valeur">"main"</span><span class="tag">&gt;</span><br>
+                <span class="tag tab2">&lt;header&gt;</span><br>
+                <span class="tag tab3">&lt;div<span class="attribut"> class=</span><span class="valeur">"logo"</span>&gt;</span><br>
+                <span class="tag tab4">&lt;h1&gt;</span><span class="tag">&lt;/h1&gt;</span><br>
+                <span class="tag tab4">&lt;div<span class="attribut"> class=</span><span class="valeur">"img-logo"</span>&gt;</span><span class="tag">&lt;/div&gt;</span><br>
+                <span class="tag tab3">&lt;/div&gt;</span><br>
+                <span class="tag tab3">&lt;nav&gt;</span><br>
+                <span class="tag tab4">&lt;table&gt;</span><br>
+                <span class="tag tab5">&lt;tr&gt;</span><br>
+                <span class="tag tab6">&lt;td&gt;&lt;a <span class="attribut"> href=</span><span class="valeur">""</span>&gt;</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/td&gt;</span><br>
+                <span class="tag tab6">&lt;td&gt;&lt;a <span class="attribut"> href=</span><span class="valeur">""</span>&gt;</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/td&gt;</span><br>
+                <span class="tag tab6">&lt;td&gt;&lt;a <span class="attribut"> href=</span><span class="valeur">""</span>&gt;</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/td&gt;</span><br>
+                <span class="tag tab6">&lt;td&gt;&lt;a <span class="attribut"> href=</span><span class="valeur">""</span>&gt;</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/td&gt;</span><br>
+                <span class="tag tab6">&lt;td&gt;&lt;a <span class="attribut"> href=</span><span class="valeur">""</span>&gt;</span><span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/td&gt;</span><br>
+                <span class="tag tab5">&lt;/tr&gt;</span><br>
+                <span class="tag tab4">&lt;/table&gt;</span><br>
+                <span class="tag tab3">&lt;/nav&gt;</span><br>
+                <span class="tag tab2">&lt;/header&gt;</span><br>
+                <span class="tag tab1">&lt;/div&gt;</span><br>
+                <span class="tag">&lt;/body&gt;</span>
+            </code>
+        </article>
+        <article>
+            <h4>Placement du curseur</h4>
+            <p>Utiliser :</p>
+            <code>${0}</code>
+        </article>
+    </div>
+</body>
+</html>
