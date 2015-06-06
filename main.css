@@ -12,6 +12,7 @@ body {
 
 h1 {
     font-size: 2.3em;
+    line-height: 1em;
     text-transform: uppercase;
     text-decoration: underline;
 }
@@ -101,6 +102,10 @@ li {
     margin-top: 5px;
 }
 
+.table-titre {
+    font-size: 1.5em;
+}
+
 /*-------COLORISATION-------*/
 
 body {
@@ -136,12 +141,20 @@ span {
 }
 
 .noir {
-    background-color: #000;
+    background-color: #11110e;
     color: #fff;
 }
 
 .blanc {
     background-color: #fff;
+}
+
+.jaune {
+    background-color: rgba(234, 225, 135, 0.79);
+}
+
+.orange {
+    background-color: rgba(241, 184, 117, 0.66);
 }
 
 /*-------POSITIONNAGE-------*/
@@ -208,3 +221,13 @@ article p {
     margin-top: 20px;
 }
 
+table {
+    border: 1px solid black;
+    width: 500px;
+    border-radius: 15px;
+    border-collapse: separate;
+}
+
+td {
+     vertical-align: middle;
+}
