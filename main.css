@@ -174,13 +174,15 @@ h1 {
 }
 
 .glossaire {
-    margin-top: 20px;
+    width: 200px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 20px auto 0;
 }
 
 .glossaire a {
     display: block;
-    width: 200px;
-    margin: 0 auto;
+    margin-top: 3px;
 }
 
 h2 {
@@ -237,3 +239,11 @@ td {
      vertical-align: middle;
 }
 
+/*------MEDIA QUERIES------*/
+
+@media screen and (max-width: 675px) {
+    .main {
+        margin: 0;
+        border-radius: 0;
+    }
+}
