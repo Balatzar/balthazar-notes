@@ -57,7 +57,11 @@ p {
 
 span {
     text-decoration: underline;
-}    
+}
+
+bold {
+    font-weight: bold;
+}
 
 code {
     color: #fff;
@@ -167,6 +171,16 @@ h1 {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-style: dashed;
+}
+
+.glossaire {
+    margin-top: 20px;
+}
+
+.glossaire a {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
 }
 
 h2 {
