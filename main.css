@@ -80,6 +80,11 @@ code span {
     text-decoration: none;
 }
 
+code li {
+    list-style: none;
+    margin-top: 0;
+}
+
 .tab1 {
     padding-left: 30px;
 }
@@ -147,6 +152,10 @@ code {
 
 .valeur a {
     color: rgba(234, 225, 135, 0.79);
+}
+
+code li a {
+    color: #fff;
 }
 
 .propriete {
