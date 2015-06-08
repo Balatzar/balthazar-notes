@@ -145,6 +145,10 @@ code {
     color: rgba(234, 225, 135, 0.79);
 }
 
+.valeur a {
+    color: rgba(234, 225, 135, 0.79);
+}
+
 .propriete {
     color: rgba(156, 226, 239, 0.73);
 }
