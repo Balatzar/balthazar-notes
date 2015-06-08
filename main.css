@@ -181,6 +181,7 @@ span {
     width: 100%;
     position: fixed;
     top: 10px;
+    z-index: 0;
 }
 
 nav {
@@ -213,6 +214,8 @@ nav ul li:hover ul {
     margin: 10px auto 10px;
     border-radius: 20px;
     padding: 30px;
+    position: relative;
+    z-index: 1;
 }
 
 h1 {
