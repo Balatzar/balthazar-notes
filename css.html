@@ -29,6 +29,31 @@
                 </code>
             </p>
         </article>
+        <article id="centrer-une-div-fixe">
+            <h4>Centrer une div fixe</h4>
+            <p>Pour centrer une div avec un display: fixe, il faut qu'elle soit à l'intérieur d'une div d'une width: 100% qui aura elle le display: fixe. La première div est alors centrée avec margin: 0 auto.</p>
+            <p>Démonstration :</p>
+            <code>
+                HTML<br>
+                <br>
+                <span class="tag">&lt;div<span class="attribut"> class=</span><span class="valeur">"centreur"</span>&gt;</span><br>
+                <span class="tag tab1">&lt;nav&gt;</span><span class="tag">&lt;/nav&gt;</span><br>
+                <span class="tag">&lt;/div&gt;</span><br>
+                <br>
+                CSS<br>
+                <br>
+                <span class="tag">.centreur</span> {<br>
+                <span class="propriete tab1">width</span>: <span class="valeur">100%</span>;<br>
+                <span class="propriete tab1">position</span>: <span class="valeur">fixed</span>;<br>
+                <span class="propriete tab1">top</span>: <span class="valeur">0</span>;<br>
+                }<br>
+                <br>
+                <span class="tag">nav</span> {<br>
+                <span class="propriete tab1">width</span>: <span class="valeur">200px</span>;<br>
+                <span class="propriete tab1">margin</span>: <span class="valeur">0 auto</span>;<br>
+                }<br>
+            </code>
+        </article>
     </div>
 </body>
  </html>
