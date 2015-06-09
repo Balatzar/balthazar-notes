@@ -386,8 +386,4 @@ td {
     .main {
         max-width: 700px;
     }
-    code {
-        padding-left: 40px;
-        word-wrap: normal;
-    }
 }
