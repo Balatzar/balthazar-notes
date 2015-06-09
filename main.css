@@ -67,12 +67,13 @@ span {
 
 bold {
     font-weight: bold;
+    font-family: 'Source Code Pro', "Courier New", monospace;
 }
 
 code {
     color: #fff;
     text-align: left;
-    font-family: 'Source Code Pro';
+    font-family: 'Source Code Pro', "Courier New", monospace;
 }
 
 code span {
@@ -189,7 +190,7 @@ nav {
     margin-left: 80%;
     border-radius: 20px;
     text-align: center;
-    padding: 10px 5px 7px 15px;
+    padding: 15px 5px 7px 25px;
 }
 
 nav li {
@@ -198,7 +199,7 @@ nav li {
 }
 
 .submenu {
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 nav ul ul {
