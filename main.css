@@ -374,6 +374,8 @@ td {
     .droite {
         margin-bottom: 10px;
     }
+    code {
+        word-wrap: break-word;
 }
 
 
