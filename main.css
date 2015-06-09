@@ -199,6 +199,7 @@ nav {
     border-radius: 20px;
     text-align: center;
     padding: 15px 5px 7px 25px;
+    z-index: 2;
 }
 
 nav li {
@@ -216,6 +217,10 @@ nav ul ul {
 
 nav ul li:hover ul {
     display: block;
+}
+    
+.visible.phone {
+    display: none;
 }
 
 .main {
@@ -320,8 +325,35 @@ td {
     .main {
         margin: 0;
         border-radius: 0;
+        margin-top: 62px;
+    }
+    .center {
+        width: 100%;
+        top: 0;
+        z-index: 2;
+        border-bottom: 1px solid black;
+    }
+    nav {
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 0;
+        border-radius: 0;
+        padding: 15px;
+    }
+    nav ul li:hover ul {
+        display: none;
+    }
+    nav ul li {
+        display: inline;
+    }
+    .invis.phone {
+        display: none ;
+    }
+    .visible.phone {
+        display: inline;
     }
 }
+
 
 @media screen and (min-width: 1900px) {
     .main {
