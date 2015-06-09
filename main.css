@@ -374,15 +374,16 @@ td {
     .droite {
         margin-bottom: 10px;
     }
+    code {
+        padding-left: 40px;
+        word-wrap: break-word;
+        position: relative;
+    }
 }
 
 
 @media screen and (min-width: 1900px) {
     .main {
         max-width: 700px;
-    }
-    code {
-        padding-left: 40px;
-        word-wrap: normal;
     }
 }
