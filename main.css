@@ -376,6 +376,9 @@ td {
     }
     code {
         word-wrap: break-word;
+        position: relative;
+    }
+>>>>>>> master
 }
 
 
