@@ -57,6 +57,10 @@ a {
     text-decoration: none;
 }
 
+p a {
+    text-decoration: underline;
+}
+
 p {
     text-align: left;
 }
@@ -68,6 +72,10 @@ span {
 bold {
     font-weight: bold;
     font-family: 'Source Code Pro', "Courier New", monospace;
+}
+
+.gras {
+    font-weight: bold;
 }
 
 code {
@@ -284,7 +292,7 @@ code {
 }
 
 article p {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 table {
@@ -321,5 +329,6 @@ td {
     }
     code {
         padding-left: 40px;
+        word-wrap: normal;
     }
 }

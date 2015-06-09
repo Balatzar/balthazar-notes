@@ -42,6 +42,8 @@
                 <li><span class="propriete">6</span>: <a href="#les-4-tags-de-base"><span class="valeur">Les 4 tags de base</span>;</a></li>
                 <li><span class="propriete">7</span>: <a href="#balises-auto-fermantes"><span class="valeur">Balises auto-fermantes</span>;</a></li>
                 <li><span class="propriete">8</span>: <a href="#le-flux"><span class="valeur">Le flux</span>;</a></li>
+                <li><span class="propriete">9</span>: <a href="#attribut-lang"><span class="valeur">Attribut lang</span>;</a></li>
+                <li><span class="propriete">10</span>: <a href="#tag-link"><span class="valeur">Tag link</span>;</a></li>
             </ul>
             }
         </code>
@@ -148,12 +150,55 @@
         </article>
         <article id="balises-auto-fermantes">
             <h4>Balises auto-fermantes</h4>
-            <p>Certaines balises sont auto-fermantes, c'est-à-dire qu'elles n'ont pas besoin d'être fermée. Par exemple la balise <bold>&lt;!DOCTYPE html&gt;</bold> comme plus haut, mais encore la balise <bold>&lt;meta&gt;</bold> qui permet de spécifier des informations sur la page, ou encore <bold>&lt;br&gt;</bold> qui est un tag inline permettant de sauter une ligne.</p>
+            <p>Certaines balises sont auto-fermantes, c'est-à-dire qu'elles n'ont pas besoin d'être fermées. Par exemple la balise <bold>&lt;!DOCTYPE html&gt;</bold> comme plus haut, mais encore la balise <bold>&lt;meta&gt;</bold> qui permet de spécifier des informations sur la page, ou encore <bold>&lt;br&gt;</bold> qui est un tag inline permettant de sauter une ligne.</p>
         </article>
         <article id="le-flux">
             <h4>Le flux</h4>
-            <p>Le flux (ou flow)</p>
+            <p>Le flux (ou flow) définit la façon dont les éléments vont s'afficher et dans quel ordre. Il est composé de trois règles :</p>
+            <ul>
+                <li>Un tag qui s'affiche avant dans le cod s'affichera avant dans le navigateur.</li>
+                <li>Si le texte d’une balise s’allonge, il pousse la suivante plus bas.</li>
+                <li>Une balise imbriquée dans une autre s’affiche par-dessus cette dernière. Exemple : le <bold>&lt;li&gt;</bold> est par-dessus son parent le <bold>&lt;ul&gt;</bold>.</li>
+            </ul>
+            <p>Ces règles peuvent être bouleversées par le CSS.</p>
+        </article>
+        <article id="attribut-lang">
+            <h4>Attribut lang</h4>
+            <p>Voici <a href="http://www.sitepoint.com/web-foundations/iso-2-letter-language-codes/">la liste</a> des codes languages acceptés par l'attribut lang, pour notament faciliter la tâche des logiciels des logiciels de reconnaissance vocale.</p>
+        </article>
+        <article id="tag-link">
+            <h4>Tag link, script et style</h4>
+            <p>Les tags link et script permettent d'appeller un autre fichier, comme par exemple une feuille de style CSS ou un fichier de script JavaScript.</p>
+            <p>Le tag script permet aussi d'inclure du code JavaScript directement dans le html, comme le tag style pour le CSS.</p>
+            <p class="gras">CSS :</p>
+            <code>
+                <span class="tag">&lt;link<span class="attribut"> rel=</span><span class="valeur">"stylesheet"</span><span class="attribut"> href=</span><span class="valeur">"url"</span>&gt;</span><br>
+                <br>
+                &lt;--! ou bien --&gt;<br>
+                <br>
+                <span class="tag">&lt;style&gt;</span><br>
+                <span class="tag tab1">header</span> {<br>
+                <span class="propriete tab2">width</span>: <span class="valeur">100%</span>;<br>
+                <span class="tab1"></span>}<br>
+                <span class="tag">&lt;/style&gt;</span>
+            </code>
+            <p class="gras">JavaScript :</p>
+            <code>
+                <span class="tag">&lt;script<span class="attribut"> src=</span><span class="valeur">"url"</span>&gt;</span><span class="tag">&lt;/script&gt;</span><br>
+                <br>
+                &lt;--! ou bien --&gt;<br>
+                <br>
+                <span class="tag">&lt;script&gt;</span><br>
+                <span class="tag tab1">var</span> bonjour = <span class="valeur">"Coucou !"</span>;<br>
+                <span class="tab1"></span>alert(bonjour);<br>
+                <span class="tag">&lt;/script&gt;</span>
+            </code>
+            <p>A noter :</p>
+            <ul>
+                <li>link est une balise auto-fermante mais pas script.</li>
+                <li>Il est très fortement conseillé d'utiliser des feuilles de style externe plutôt que de mettre le CSS dans le fichier HTML.</li>
+            </ul>
         </article>
     </div>
 </body>
-</html>
+</html
