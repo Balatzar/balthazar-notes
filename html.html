@@ -14,6 +14,7 @@
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="#glossaire">Glossaire</a></li>
                 <li class="invis phone"><a href="">Sujets</a>
                     <ul class="submenu">
                         <li><a href="html.html">HTML</a></li>
@@ -23,7 +24,6 @@
                         <li><a href="emmet.html">Emmet</a></li>
                     </ul>
                 </li>
-                <li class="visible phone"><a href="#glossaire">Glossaire</a></li>
             </ul>
         </nav>
     </div>
@@ -32,7 +32,8 @@
             <a href="index.html"><h1>Les Notes de Balthazar !</h1></a>
             <h1 class="soustitre">html</h1>
         </header>
-        <code id="glossaire">
+        <code class="relative">
+           <span class="id" id="glossaire"></span>
             <span class="tag">Glossaire</span> {<br>
             <ul>
                 <li><span class="propriete">1</span>: <a href="#presentation"><span class="valeur">Présentation</span>;</a></li>
@@ -44,22 +45,25 @@
                 <li><span class="propriete">7</span>: <a href="#balises-auto-fermantes"><span class="valeur">Balises auto-fermantes</span>;</a></li>
                 <li><span class="propriete">8</span>: <a href="#le-flux"><span class="valeur">Le flux</span>;</a></li>
                 <li><span class="propriete">9</span>: <a href="#attribut-lang"><span class="valeur">Attribut lang</span>;</a></li>
-                <li><span class="propriete">10</span>: <a href="#tag-link"><span class="valeur">Tag link</span>;</a></li>
+                <li><span class="propriete">10</span>: <a href="#tag-link"><span class="valeur">Tags link, script et style</span>;</a></li>
             </ul>
             }
         </code>
-        <article id="presentation">
+        <article>
+           <div class="id" id="presentation"></div>
             <h4>Présentation</h4>
             <p>L'HTML (hyper-text language-markup) est le language de markup du web. Il permet de structurer les pages web.</p>
             <p>Il est composé de tags (balises) indiquant un certain type de contenu, qui sera rendu d'une certaine façon par le navigateur.</p>
             <p>C'est un language informatique mais pas un language de programmation.</p>
         </article>
-        <article id="la-syntaxe">
+        <article>
+           <div class="id" id="la-syntaxe"></div>
             <h4>La syntaxe</h4>
             <p>L'HTML est composé de tags entourant du contenu ou d'autres tags. Ces tags peuvent avoir certaines propriétés.</p>
             <code><span class="tag">&lt;tag ouvrant<span class="attribut"> attribut=</span><span class="valeur">"valeur"</span>&gt;</span>Contenu<span class="tag">&lt;/tag fermant&gt;</span></code>
         </article>
-        <article id="exemple-simple">
+        <article>
+           <div class="id" id="exemple-simple"></div>
             <h4>Exemple simple</h4>
             <p>Ce code présente les tags formant un contenant (une div) englobant un titre (h1) et un paragraphe (p).</p>
             <code>
@@ -75,7 +79,8 @@
             </div>
             <p>Assez simple. L'indentation n'est pas nécessaire mais elle permet de rendre le code lisible et de facilement voir l'inbriquement des tags.</p>
         </article>
-        <article id="le-block">
+        <article>
+           <div class="id" id="le-block"></div>
             <h4>Le block</h4>
             <p>Les tags peuvent être de type block ou inline.</p>
             <p>Les tags block occupent automatiquement 100% de l'espace en largeur qu'ils peuvent (en fonction de la taille de leur contenant, que ce soit un autre tag block ou le corps de la page web).</p>
@@ -92,7 +97,8 @@
                 <li>form</li>
             </ul>
         </article>
-        <article id="le-inline">
+        <article>
+           <div class="id" id="le-inline"></div>
             <h4>Le inline</h4>
             <p>Les tags inline ont eux pour taille automatique celle de leur contenu.</p>
             <p>Ils peuvent contenir d'autres tags inline mais pas de block.</p>
@@ -108,7 +114,8 @@
             </ul>
             <p>Ces deux notions sont liées à la propriété CSS display.</p>
         </article>
-        <article id="les-4-tags-de-base">
+        <article>
+           <div class="id" id="les-4-tags-de-base"></div>
             <h4>Les 4 tags de base</h4>
             <table>
                 <tr class="table-titre">
@@ -149,11 +156,13 @@
             </code>
             <p>En général on commence à indenter à l'intérieur des tags head et body.</p>
         </article>
-        <article id="balises-auto-fermantes">
+        <article>
+           <div class="id" id="balises-auto-fermantes"></div>
             <h4>Balises auto-fermantes</h4>
             <p>Certaines balises sont auto-fermantes, c'est-à-dire qu'elles n'ont pas besoin d'être fermées. Par exemple la balise <bold>&lt;!DOCTYPE html&gt;</bold> comme plus haut, mais encore la balise <bold>&lt;meta&gt;</bold> qui permet de spécifier des informations sur la page, ou encore <bold>&lt;br&gt;</bold> qui est un tag inline permettant de sauter une ligne.</p>
         </article>
-        <article id="le-flux">
+        <article>
+           <div class="id" id="le-flux"></div>
             <h4>Le flux</h4>
             <p>Le flux (ou flow) définit la façon dont les éléments vont s'afficher et dans quel ordre. Il est composé de trois règles :</p>
             <ul>
@@ -163,12 +172,14 @@
             </ul>
             <p>Ces règles peuvent être bouleversées par le CSS.</p>
         </article>
-        <article id="attribut-lang">
+        <article>
+           <div class="id" id="attribut-lang"></div>
             <h4>Attribut lang</h4>
             <p>Voici <a href="http://www.sitepoint.com/web-foundations/iso-2-letter-language-codes/">la liste</a> des codes languages acceptés par l'attribut lang, pour notament faciliter la tâche des logiciels des logiciels de reconnaissance vocale.</p>
         </article>
-        <article id="tag-link">
-            <h4>Tag link, script et style</h4>
+        <article>
+           <div class="id" id="tag-link"></div>
+            <h4>Tags link, script et style</h4>
             <p>Les tags link et script permettent d'appeller un autre fichier, comme par exemple une feuille de style CSS ou un fichier de script JavaScript.</p>
             <p>Le tag script permet aussi d'inclure du code JavaScript directement dans le html, comme le tag style pour le CSS.</p>
             <p class="gras">CSS :</p>
