@@ -268,7 +268,7 @@ article {
     height: 2px;
     background-color: #000;
     display: inline;
-    top: -66px;
+    top: -10px;
     position: absolute;
 }
 
@@ -393,6 +393,9 @@ td {
     code {
         word-wrap: break-word;
         position: relative;
+    }
+    .id {
+        top: -66px;
     }
 }
 
