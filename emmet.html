@@ -31,7 +31,8 @@
             <a href="index.html"><h1>Les Notes de Balthazar !</h1></a>
             <h1 class="soustitre">Emmet</h1>
         </header>
-        <code id="glossaire">
+        <code class="relative">
+           <span class="id" id="glossaire"></span>
             <span class="tag">Glossaire</span> {<br>
             <ul>
                 <li><span class="propriete">1</span>: <a href="#presentation"><span class="valeur">Présentation</span>;</a></li>
@@ -40,11 +41,13 @@
             </ul>
             }
         </code>
-        <article id="presentation">
+        <article>
+           <div class="id" id="presentation"></div>
             <h4>Présentation</h4>
             <p>Emmet est un plugin des principaux éditeurs de texte (sublime text, brackets, text mate, eclipse, notepad++, Vim...).<br>Il permet d'accélérer la vitesse de développement en créant de puissantes abbréviations.</p>
         </article>
-        <article id="syntaxe-de-base">
+        <article>
+           <div class="id" id="syntaxe-de-base"></div>
             <h4>Syntaxe de base</h4>
             <code>body>.main>header>.logo>h1+.imglogo^nav>table>tr>(td>a)*5</code>
             <p>Ce qui donne en utilisant la touche <span>tab</span> pour expandre :</p>
@@ -72,7 +75,8 @@
                 <span class="tag">&lt;/body&gt;</span>
             </code>
         </article>
-        <article id="placement-du-curseur">
+        <article>
+           <div class="id" id="placement-du-curseur"></div>
             <h4>Placement du curseur</h4>
             <p>Utiliser :</p>
             <code>${0} ou |</code>
